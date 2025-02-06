@@ -31,3 +31,52 @@ The following topics will be considered:
 - Code clarity and maintainability
 - Performance
 - Resilience
+
+
+
+Test project for a mobile device store built with React.
+
+---
+
+## Installation and Execution  
+
+### 1️⃣ Clone the repository  
+```sh
+git clone <REPOSITORY_URL>
+cd <PROJECT_NAME>
+```
+
+### 2️⃣ Install dependencies  
+```sh
+npm install
+```
+
+### 3️⃣ Run in development mode  
+```sh
+npm start
+```
+This will start the application at `http://localhost:3000/`.
+
+### 4️⃣ Build for production  
+```sh
+npm run build
+```
+The compiled files will be located in the `build/` directory.
+
+### 5️⃣ Run tests  
+```sh
+npm test
+```
+
+### 6️⃣ Check code quality  
+```sh
+npm run lint
+```
+
+---
+
+## Additional Notes  
+- To modify the API, edit `src/services/api.js`.  
+- Make sure you have **Node.js** installed before running the project.  
+
+---
